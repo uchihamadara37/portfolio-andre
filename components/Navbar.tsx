@@ -20,7 +20,7 @@ export default function Navbar() {
       <button
         onClick={() => scrollToSection("main")}
         className={`px-3 py-1 rounded-sm transition-all duration-300 cursor-pointer font-medium ${
-          activeTab === "main" ? "bg-white text-indigo-950" : "hover:bg-indigo-200/10"
+          activeTab === "main" ? "bg-white text-indigo-950" : "hover:bg-indigo-200/10 text-white"
         }`}
       >
         Main
@@ -28,7 +28,7 @@ export default function Navbar() {
       <button
         onClick={() => scrollToSection("portfolio")}
         className={`px-3 py-1 rounded-sm transition-all duration-300 cursor-pointer font-medium ${
-          activeTab === "portfolio" ? "bg-white text-indigo-950" : "hover:bg-indigo-200/10"
+          activeTab === "portfolio" ? "bg-white text-indigo-950" : "hover:bg-indigo-200/10 text-white"
         }`}
       >
         Portfolio
@@ -36,7 +36,7 @@ export default function Navbar() {
       <button
         onClick={() => scrollToSection("contact")}
         className={`px-3 py-1 rounded-sm transition-all duration-300 cursor-pointer font-medium ${
-          activeTab === "contact" ? "bg-white text-indigo-950" : "hover:bg-indigo-200/10"
+          activeTab === "contact" ? "bg-white text-indigo-950" : "hover:bg-indigo-200/10 text-white"
         }`}
       >
         Contact
