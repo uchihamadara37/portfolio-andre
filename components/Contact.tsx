@@ -5,7 +5,7 @@ import { Whatsapp } from "./WhatsAppIcon";
 
 export default function Contact() {
   // Ganti dengan nomormu (tanpa +, contoh: 6281234567890)
-  const whatsappNumber = "6281234567890";
+  const whatsappNumber = "6285157099256";
   const whatsappMessage = encodeURIComponent("Halo Andrea, saya melihat portofolio Anda dan tertarik untuk berdiskusi lebih lanjut!");
   const whatsappLink = `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`;
 
