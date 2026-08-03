@@ -67,21 +67,21 @@ const portfolioData = [
 
 export default function Portfolio() {
     return (
-        <div className="relative w-full max-w-6xl mx-auto py-10 px-8 xl:px-50 " id="portfolio">
+        <div className="relative w-full mx-auto py-10 px-4 md:px-8 lg:px-16 " id="portfolio">
             <h2 className="text-2xl md:text-3xl font-semibold text-white mt-5 mb-12 text-center">
                 PORTFOLIO 
             </h2>
             {/* <HeroGlow className="relative"/> */}
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {portfolioData.map((project) => (
                     <div
                         key={project.id}
-                        className="flex flex-col p-6 rounded-4xl bg-white/10 backdrop-blur-sm border border-indigo-500/20 shadow-xl transition-transform duration-300 hover:scale-[1.04] hover:backdrop-blur-md hover:shadow-2xl"
+                        className="flex flex-col p-4 md:p-6 rounded-2xl md:rounded-4xl bg-white/10 backdrop-blur-sm border border-indigo-500/20 shadow-xl transition-transform duration-300 hover:scale-[1.04] hover:backdrop-blur-md hover:shadow-2xl"
                     >
                         {/* Header: Title & Description */}
-                        <div className="mb-4">
-                            <h3 className="text-2xl font-bold text-white mb-3">
+                        <div className="mb-2 md:mb-4">
+                            <h3 className="text-2xl font-bold text-white mb-1 md:mb-3">
                                 {project.title}
                             </h3>
                             <p className="text-sm text-gray-300 leading-relaxed line-clamp-3">
@@ -90,13 +90,13 @@ export default function Portfolio() {
                         </div>
 
                         {/* Action Buttons */}
-                        <div className="flex gap-3 mb-6">
+                        <div className="flex gap-3 mb-4 md:mb-6">
                             {/* GitHub Button */}
                             <Link
                                 href={project.github}
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="flex items-center gap-2 px-2 py-1.5 bg-white/10 hover:bg-white/20 text-gray-200 text-xs font-medium rounded-full transition-colors border border-white/5"
+                                className="flex items-center gap-2 px-2 py-1.5 bg-white/10 hover:bg-white/20 text-gray-200 text-xs font-medium rounded-full transition-colors border border-white/30"
                             >
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
@@ -115,7 +115,7 @@ export default function Portfolio() {
                                 href={project.demo}
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="flex items-center gap-2 px-2 py-1.5 bg-white/10 hover:bg-white/20 text-gray-200 text-xs font-medium rounded-full transition-colors border border-white/5"
+                                className="flex items-center gap-2 px-2 py-1.5 bg-white/10 hover:bg-white/20 text-gray-200 text-xs font-medium rounded-full transition-colors border border-white/30"
                             >
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
