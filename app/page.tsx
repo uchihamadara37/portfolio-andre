@@ -32,7 +32,7 @@ export default function Home() {
 
 
       {/* hero */}
-      <div className="flex flex-col gap-2 items-center justify-center mt-44">
+      <div className="flex flex-col gap-2 items-center justify-center mt-44 text-center">
         <h1 className="text-5xl font-bold text-white drop-shadow-lg">ANDREA ALFIAN</h1>
         <h3 className="text-2xl font-light text-white drop-shadow-lg"><span className="font-semibold">Fullstack Programmer</span> and AI Enthusiast</h3>
         <h3 className="text-lg font-light text-white drop-shadow-lg text-center">Focused and experienced in building multi-platform applications.</h3>
