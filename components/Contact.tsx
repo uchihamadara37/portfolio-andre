@@ -76,7 +76,7 @@ export default function Contact() {
             href={link.href}
             target="_blank"
             rel="noopener noreferrer"
-            className={`${link.className} flex items-center gap-2 px-4 py-2 rounded-xl border border-white/40 text-gray-200 hover:text-white hover:border-white transition-all duration-300`}
+            className={`${link.className} flex items-center gap-2 px-2.5 py-2 rounded-xl border border-white/40 text-gray-200 hover:text-white hover:border-white transition-all duration-300`}
           >
             {link.icon}
             <span className="text-base font-medium tracking-wide">{link.name}</span>

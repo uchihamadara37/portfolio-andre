@@ -8,7 +8,7 @@ import Image from "next/image";
 export default function Home() {
   // const [tabActive, setTabActive] = useState("main");
   return (
-    <div className="relative w-full flex flex-col flex-1 items-center bg-slate-900 font-sans overflow-x-hidden">
+    <div id="main" className="relative w-full flex flex-col flex-1 items-center bg-slate-900 font-sans overflow-x-hidden">
       <LightPillar
         topColor="#5227FF"
         bottomColor="#FF9FFC"
