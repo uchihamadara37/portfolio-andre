@@ -63,6 +63,22 @@ const portfolioData = [
         demo: "https://nova-frontend-solana.vercel.app/",
         image: "/portfolio/frontendsolana.png",
     },
+    {
+        id: 8,
+        title: "Web Desa Tlogowatu Klaten",
+        desc: "Website resmi desa Tlogowatu, Klaten, Jawa Tengah untuk memberikan informasi berita dan layanan publik kepada masyarakat.",
+        github: "https://github.com/tlogowatu/website-tlogowatu-frontend",
+        demo: "https://www.tlogowatu.com/",
+        image: "/portfolio/web_tlogowatucom.png",
+    },
+    {
+        id: 8,
+        title: "Simulasi Donate App",
+        desc: "Aplikasi simulasi donasi berbasis web yang memungkinkan pengguna untuk melakukan donasi secara virtual ke orang lain.",
+        github: "https://github.com/uchihamadara37/donasi_frontend_next",
+        demo: "https://donasi-frontend-next.vercel.app/login",
+        image: "/portfolio/web_donasi.png",
+    },
 ];
 
 export default function Portfolio() {
