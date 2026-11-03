@@ -79,6 +79,14 @@ const portfolioData = [
         demo: "https://donasi-frontend-next.vercel.app/login",
         image: "/portfolio/web_donasi.png",
     },
+    {
+        id: 9,
+        title: "Bantuan Sosial SOT-B",
+        desc: "Aplikasi pengumpulan dan pencatatan donasi untuk memudahkan transparasi donasi antar anggota dan juga memudahkan pengelolaannya.",
+        github: "https://github.com/uchihamadara37/bansos-managemen",
+        demo: "http://bansoskitabersama.vercel.app/",
+        image: "/portfolio/bansos.png",
+    },
 ];
 
 export default function Portfolio() {
